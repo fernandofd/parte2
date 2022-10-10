@@ -1,0 +1,70 @@
+
+//atividade 1
+
+
+// import React from "react";
+
+// export default function App(){
+//   return(
+//     <>
+//     <h1>
+//       senai
+//     </h1>
+//     </>
+//   )
+// }
+
+
+
+
+// atividade 2
+
+
+// import React from "react";
+// import senai from "./img/senai.png"
+// export default function App(){
+
+
+
+//   const curso = 'React'
+//   const instituicao=()=>{
+//     return ('Senai')
+//   }
+
+//   return(
+//     <>
+//     <h1>
+//       senai
+//       <p>{curso}</p>
+//       <p>curso:{curso}</p>
+//       <p>{'curso:'+curso}</p>
+//       <p>{'instituicao: '+instituicao()}</p>
+//       <img src={senai}/> 
+//       <img src="img/senai.png"/>
+//     </h1>
+//     </>
+//   )
+// }
+
+
+
+//atividade 3
+
+
+import React from "react";
+import Cabecalho from "./Componentes/Cabecalho";
+import Secao from "./Componentes/Secao";
+
+
+export default function App(){
+
+  
+return(
+  <>
+  <Cabecalho/>
+  <Secao/>
+  
+  </>
+)
+
+}
